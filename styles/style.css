@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #000000;
+    color: #f6f6f6;
+    margin: 0;
+    box-sizing: border-box;/*box sizing serve para não deixa o conteudo sai fora da pagina*/
+} 
+
+.conteudo{
+    display: flex; /*trasforma todos os elementos filhos em inline*/
+    justify-content: space-between; /*qual seria a diferença em usa o justify-content pra usa o gap?*/
+    align-items: center;
+    margin: 0 0;
+    padding:0 200px;
+}
+.conteudo__apresentacao{
+    width: 615px;
+    margin: 0px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.conteudo__apresentacao__titulos{
+    font-size: 36px;
+    font-family:'Krona One', sans-serif;
+}
+.conteudo__apresentacao__paragrafos{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+h2{
+    color: #22D4FD;
+}
+
+.conteudo__apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo__apresentacao__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration:none;
+    color: #000000;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    
+}
